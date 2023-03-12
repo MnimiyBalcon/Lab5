@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<HumanBeingCatalog>
+    <HumanBeing>
+        <name>Паша</name>
+        <coordinates>
+            <x>1.0</x>
+            <y>1.0</y>
+        </coordinates>
+        <creationDate>2023-03-12T16:28:44.385894700+03:00[Europe/Moscow]</creationDate>
+        <realHero>false</realHero>
+        <hasToothpick>true</hasToothpick>
+        <impactSpeed>1.0</impactSpeed>
+        <soundtrackName>1</soundtrackName>
+        <minutesOfWaiting>0</minutesOfWaiting>
+        <mood> </mood>
+        <car>
+            <name>1</name>
+            <cool>true</cool>
+        </car>
+    </HumanBeing>
+    <HumanBeing>
+        <name>Kolya</name>
+        <coordinates>
+            <x>100.0</x>
+            <y>-115.0</y>
+        </coordinates>
+        <creationDate>2023-03-12T16:15:15.348471500+03:00[Europe/Moscow]</creationDate>
+        <realHero>false</realHero>
+        <hasToothpick>false</hasToothpick>
+        <impactSpeed>0.0</impactSpeed>
+        <soundtrackName>KOLYA!</soundtrackName>
+        <minutesOfWaiting>1</minutesOfWaiting>
+        <mood>CALM</mood>
+        <car>
+            <name>BMW</name>
+            <cool>true</cool>
+        </car>
+    </HumanBeing>
+    <HumanBeing>
+        <name>Роман</name>
+        <coordinates>
+            <x>0.0</x>
+            <y>0.0</y>
+        </coordinates>
+        <creationDate>2023-03-12T16:15:15.348471500+03:00[Europe/Moscow]</creationDate>
+        <realHero>false</realHero>
+        <hasToothpick>true</hasToothpick>
+        <impactSpeed>925.0</impactSpeed>
+        <soundtrackName>MaybeBaybe</soundtrackName>
+        <minutesOfWaiting>999</minutesOfWaiting>
+        <mood>SORROW</mood>
+        <car>
+            <name>MEGACAR</name>
+            <cool>false</cool>
+        </car>
+    </HumanBeing>
+</HumanBeingCatalog>
