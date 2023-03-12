@@ -72,21 +72,7 @@ public class Main {
 
             while (pathReader.hasNextLine()) { //цикл по нахождению файла с коллекциями. Файл найден => break;
                 filePath = pathReader.nextLine(); // user вручную вбивает путь к файлу
-                if (filePath.equals("")) {
-                    //filePath = "C:\\Users\\1\\IdeaProjects\\Laba5\\HumanBeing.xml";//для ноутбука
-                    filePath = "C:\\Users\\Silve\\IdeaProjects\\Lab5\\HumanBeing.xml";//для пк
-                    file = new File(filePath);
-                    //file = new File("/home/studs/s367541/java/Lab5/HumanBeing.xml"); //для helios
-                    try {
-                        fileReader = new Scanner(file);
-                    } catch (FileNotFoundException e1) {
-                        e1.printStackTrace();
-                    } catch (NoSuchElementException e0) {
-                        System.out.println("Файл пуст!");
-                        break;
-                    }
-                    break;
-                }
+                
                 try {
                     file = new File(filePath);
                     fileReader = new Scanner(file);
@@ -131,23 +117,6 @@ public class Main {
         CommandManager commandManager = new CommandManager();
 
 /**интерактивный режим*/
-
-        /*commandManager.help();
-        commandManager.show();
-        commandManager.print_unique_soundtrack_name();
-        commandManager.filter_contains_name("Паша");
-        commandManager.insert(5);
-        commandManager.help();
-        commandManager.show();
-        commandManager.remove_lower_key(1);
-        commandManager.history();
-        //commandManager.remove_key(3);
-        //commandManager.clear();
-        //commandManager.remove_greater(2);
-        commandManager.print_field_descending_minutes_of_waiting();
-        commandManager.update(5);
-        commandManager.save("NewHB.xml");
-        commandManager.exit();*/
 
         System.out.println("Интерактивный режим включён. Введите \"help\" для получения информации по командам");
         while (pathReader.hasNextLine()) {
